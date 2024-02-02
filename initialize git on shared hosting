@@ -15,3 +15,11 @@ go to SSH Access from Cpanel
 -> Authorization Status will be shown as not authorized
 Click Manage and Authorize now
 
+
+cd public_html
+git init
+git remote add origin https://github.com/sunnikmr8/abctes.git
+
+git config --global pack.windowMemory "100m"
+git config --global pack.packSizeLimit "100m"
+git config --global pack.threads "1"
