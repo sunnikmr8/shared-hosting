@@ -1,0 +1,17 @@
+clone git repository on shared hosting
+
+ssh-keygen -t rsa -b 2048 -C "username@domainurl"
+touch ~/.ssh/config
+chmod 0600 ~/.ssh/config
+chown username:username ~/.ssh/config
+
+ssh-keygen -t rsa -b 2048 -C "bhararxd@cp-ht-7.webhostbox.net"
+touch ~/.ssh/config
+chmod 0600 ~/.ssh/config
+chown bhararxd:bhararxd ~/.ssh/config
+
+go to SSH Access from Cpanel
+-> Manage SSH Keys
+-> Authorization Status will be shown as not authorized
+Click Manage and Authorize now
+
